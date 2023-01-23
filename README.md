@@ -1,5 +1,5 @@
-# COMPOUND-Model
-**_tbd._**
+# BAY-794620-Model (without tumor)
+Whole-body PBPK model of the antibody–drug conjugate BAY-794620 in mice (PK-Sim model without extension to represent tumor tissue).
 
 ## Repository files
 **_tbd._**

@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "BAY 79-4620",
+            "Path": "../../BAY794620.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -14,15 +14,15 @@
             "GOFMergedPlotsPredictedVsObserved": [
                 {
                     "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -53,8 +53,8 @@
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,19 +121,19 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "BAY 79-4620",
+                "Simulation": "BAY794620_autoradiography",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "BAY 79-4620",
+                "Simulation": "BAY794620_tissueDissection",
                 "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plot for concentration in plasma",
+                "Title": "Goodness of fit plot for concentration in blood and tissues",
                 "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
@@ -146,28 +146,217 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "BAY 79-4620 - autoradiography",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|VenousBlood|BAY794620|Whole Blood",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Blood.1","BAY794620_Autoradiography_PKSimImport.Blood.2"],
                                 "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Lungs.1","BAY794620_Autoradiography_PKSimImport.Lungs.2"],
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Kidneys.1","BAY794620_Autoradiography_PKSimImport.Kidneys.2"],
+                                "Color": "#FF8000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Skin|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Skin.1","BAY794620_Autoradiography_PKSimImport.Skin.2"],
+                                "Color": "#FF00FF"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Muscle.1","BAY794620_Autoradiography_PKSimImport.Muscle.2"],
+                                "Color": "#800080"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Spleen.1","BAY794620_Autoradiography_PKSimImport.Spleen.2"],
+                                "Color": "#00FF00"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Liver.1","BAY794620_Autoradiography_PKSimImport.Liver.2"],
+                                "Color": "#C04000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Heart.1","BAY794620_Autoradiography_PKSimImport.Heart.2"],
+                                "Color": "#FF8080"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Fat.1","BAY794620_Autoradiography_PKSimImport.Fat.2"],
+                                "Color": "#00C0C0"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Brain.1","BAY794620_Autoradiography_PKSimImport.Brain.2"],
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Stomach.1","BAY794620_Autoradiography_PKSimImport.Stomach.2"],
+                                "Color": "#8080FF"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Pancreas.1","BAY794620_Autoradiography_PKSimImport.Pancreas.2"],
+                                "Color": "#C000C0"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Small intestine.1","BAY794620_Autoradiography_PKSimImport.Small intestine.2"],
+                                "Color": "#804040"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_autoradiography",
+                                "Output": "Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Ovaries.1","BAY794620_Autoradiography_PKSimImport.Ovaries.2"],
+                                "Color": "#C0C000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "BAY 79-4620 - tissue dissection",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|VenousBlood|BAY794620|Whole Blood",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Blood",
                                 "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Lung",
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Kidney",
+                                "Color": "#FF8000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Bone|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Bone",
+                                "Color": "#0000C0"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Muscle",
+                                "Color": "#800080"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Spleen",
+                                "Color": "#00FF00"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Liver",
+                                "Color": "#C04000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Heart",
+                                "Color": "#FF8080"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Fat",
+                                "Color": "#00C0C0"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Brain",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Stomach",
+                                "Color": "#8080FF"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Pancreas",
+                                "Color": "#C000C0"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Intestine",
+                                "Color": "#804040"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|LargeIntestine|BAY794620|Whole Organ (Large Intestine) incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Intestine",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "BAY 79-4620",
+                                "Simulation": "BAY794620_tissueDissection",
+                                "Output": "Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+                                "ObservedData": "BAY794620_TissueDissection_PKSimImport.Ovaries",
+                                "Color": "#C0C000"
                             }
                         ]
                     }
@@ -180,15 +369,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "BAY 79-4620",
+            "Name": "BAY794620",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],
