@@ -1,4 +1,4 @@
-### 2.2.1	In vitro / physico-chemical Data
+### In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a>
 
 A literature search was performed to collect available information on physicochemical properties of BAY 79-4620. The obtained information from literature is summarized in the table below. 
 
@@ -8,7 +8,7 @@ A literature search was performed to collect available information on physicoche
 | r             | nm       | 5.34      | [Taylor 1984](#5-references) | Hydrodynamic solute radius                                   |
 | Kd (FcRn)     | µM       | 0.082     | [Zhou 2003](#5-references)   | Dissociation constant for binding of a humane IgG1 antibody to murine FcRn at pH 6 |
 
-### 2.2.2	PK Data
+### PK Data <a id="PK-data"></a>
 
 The biodistribution data from mice for BAY 79-4620 were Bayer AG in house data taken from two studies:
 
