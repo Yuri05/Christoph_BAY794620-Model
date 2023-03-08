@@ -6,7 +6,7 @@ There is no absorption process since BAY 79-4620 was administered intravenously.
 
 The standard lymph and fluid recirculation flow rates and the standard vascular properties of the different tissues (hydraulic conductivity, pore radii, fraction of flow via large pores) from PK-Sim were used. BAY 79-4620, among other compounds, has been used to identify these lymph and fluid recirculation flow rates used in PK-Sim ([Niederalt 2018](#5-references)).  
 
-A standard PK-Sim model was used without an additional tumor organ - in contrast to the model which has been used in Ref. ([Niederalt 2018](#5-references)).  It was assumed that BAY 79-4620 is not cross-reactive to murine CA IX, i.e. there is no drug-target binding due to the neglection of tumor tissue in the present PK-Sim standard model (again in contrast to the model used in Ref. ([Niederalt 2018](#5-references))).   
+A standard PK-Sim model was used without an additional tumor organ - in contrast to the model which has been used in Ref. ([Niederalt 2018](#5-references)).  It was assumed that BAY 79-4620 is not cross-reactive to murine CA IX, i.e. there is no drug-target binding due to the neglect of tumor tissue in the present PK-Sim standard model (again in contrast to the model used in Ref. ([Niederalt 2018](#5-references))).   
 
 ### 2.3.3	Metabolism and Elimination
 

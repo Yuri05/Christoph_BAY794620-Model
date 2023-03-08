@@ -1,4 +1,4 @@
-BAY 79-4620 is an antibody–drug conjugate consisting of a human IgG1 mAb directed against human carbonic anhydrase IX (CA IX) conjugated to the toxophor monomethylauristatin E (MMAE) via a cathepsin cleavable valine-citrulline based linker ([Petrul 2012](#5-references)).
+BAY 79-4620 is an antibody–drug conjugate consisting of a human IgG1 mAb directed against human carbonic anhydrase IX (CA IX) conjugated to the toxophore monomethylauristatin E (MMAE) via a valine-citrulline based linker ([Petrul 2012](#5-references)).
 
 For BAY 79-4620, tissue concentration-time profiles for a large number of different mice tissues were measured and used together with pharmacokinetic (PK) data from 5 other compounds to identify unknown parameters during the development of the generic large molecule physiologically based pharmacokinetic (PBPK) model in PK-Sim ([Niederalt 2018](#5-references)). 
 
