@@ -577,34 +577,34 @@
       "Name": "BAY794620_autoradiography",
       "Model": "TwoPores",
       "ObservedData": [
-        "BAY794620_Autoradiography_PKSimImport.Stomach.2",
-        "BAY794620_Autoradiography_PKSimImport.Stomach.1",
-        "BAY794620_Autoradiography_PKSimImport.Brain.2",
-        "BAY794620_Autoradiography_PKSimImport.Brain.1",
-        "BAY794620_Autoradiography_PKSimImport.Fat.2",
-        "BAY794620_Autoradiography_PKSimImport.Fat.1",
-        "BAY794620_Autoradiography_PKSimImport.Liver.2",
-        "BAY794620_Autoradiography_PKSimImport.Liver.1",
-        "BAY794620_Autoradiography_PKSimImport.Spleen.2",
-        "BAY794620_Autoradiography_PKSimImport.Spleen.1",
-        "BAY794620_Autoradiography_PKSimImport.Muscle.2",
-        "BAY794620_Autoradiography_PKSimImport.Muscle.1",
-        "BAY794620_Autoradiography_PKSimImport.Skin.2",
-        "BAY794620_Autoradiography_PKSimImport.Skin.1",
-        "BAY794620_Autoradiography_PKSimImport.Kidneys.2",
-        "BAY794620_Autoradiography_PKSimImport.Kidneys.1",
-        "BAY794620_Autoradiography_PKSimImport.Blood.2",
         "BAY794620_Autoradiography_PKSimImport.Blood.1",
-        "BAY794620_Autoradiography_PKSimImport.Ovaries.2",
-        "BAY794620_Autoradiography_PKSimImport.Ovaries.1",
-        "BAY794620_Autoradiography_PKSimImport.Small intestine.2",
-        "BAY794620_Autoradiography_PKSimImport.Small intestine.1",
-        "BAY794620_Autoradiography_PKSimImport.Pancreas.2",
-        "BAY794620_Autoradiography_PKSimImport.Pancreas.1",
-        "BAY794620_Autoradiography_PKSimImport.Heart.2",
+        "BAY794620_Autoradiography_PKSimImport.Blood.2",
+        "BAY794620_Autoradiography_PKSimImport.Lung.1",
+        "BAY794620_Autoradiography_PKSimImport.Lung.2",
+        "BAY794620_Autoradiography_PKSimImport.Kidney.1",
+        "BAY794620_Autoradiography_PKSimImport.Kidney.2",
+        "BAY794620_Autoradiography_PKSimImport.Skin.1",
+        "BAY794620_Autoradiography_PKSimImport.Skin.2",
+        "BAY794620_Autoradiography_PKSimImport.Muscle.1",
+        "BAY794620_Autoradiography_PKSimImport.Muscle.2",
+        "BAY794620_Autoradiography_PKSimImport.Spleen.1",
+        "BAY794620_Autoradiography_PKSimImport.Spleen.2",
+        "BAY794620_Autoradiography_PKSimImport.Liver.1",
+        "BAY794620_Autoradiography_PKSimImport.Liver.2",
         "BAY794620_Autoradiography_PKSimImport.Heart.1",
-        "BAY794620_Autoradiography_PKSimImport.Lungs.1",
-        "BAY794620_Autoradiography_PKSimImport.Lungs.2"
+        "BAY794620_Autoradiography_PKSimImport.Heart.2",
+        "BAY794620_Autoradiography_PKSimImport.Fat.1",
+        "BAY794620_Autoradiography_PKSimImport.Fat.2",
+        "BAY794620_Autoradiography_PKSimImport.Brain.1",
+        "BAY794620_Autoradiography_PKSimImport.Brain.2",
+        "BAY794620_Autoradiography_PKSimImport.Stomach.1",
+        "BAY794620_Autoradiography_PKSimImport.Stomach.2",
+        "BAY794620_Autoradiography_PKSimImport.Pancreas.1",
+        "BAY794620_Autoradiography_PKSimImport.Pancreas.2",
+        "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1",
+        "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2",
+        "BAY794620_Autoradiography_PKSimImport.Ovaries.1",
+        "BAY794620_Autoradiography_PKSimImport.Ovaries.2"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -666,6 +666,148 @@
         "Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
         "Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|VenousBlood|BAY794620|Whole Blood",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Blood.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|VenousBlood|BAY794620|Whole Blood",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Blood.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Brain.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Brain.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Fat.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Fat.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Heart.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Heart.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Kidney.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Kidney.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Liver.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Liver.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Lung.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Lung.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Muscle.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Muscle.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Ovaries.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Ovaries.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Pancreas.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Pancreas.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Skin|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Skin.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Skin|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Skin.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Spleen.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Spleen.2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Stomach.1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_autoradiography|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_Autoradiography_PKSimImport.Stomach.2"
+        }
+      ],
       "Individual": "Mouse_autoradiography",
       "Compounds": [
         {
@@ -719,9 +861,9 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Blood.1-BAY794620-Measurement",
+              "Name": "Autoradiography.Blood.1-BAY794620-Blood-WholeBlood-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 5,
@@ -730,11 +872,10 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Blood.2-BAY794620-Measurement",
+              "Name": "Autoradiography.Blood.2-BAY794620-Blood-WholeBlood-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
               "CurveOptions": {
-                "VisibleInLegend": false,
                 "Color": "#FF0000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
@@ -760,7 +901,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -791,17 +932,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Blood.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Venous Blood-Whole Blood-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|VenousBlood|BAY794620|Whole Blood",
@@ -811,11 +941,21 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Blood.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Blood.1-BAY794620-Blood-WholeBlood-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
               "CurveOptions": {
-                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Blood.2-BAY794620-Blood-WholeBlood-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
+              "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
@@ -841,7 +981,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -872,18 +1012,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Lungs.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Lungs.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Lungs.2|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "VisibleInLegend": false,
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Lung-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
@@ -893,12 +1021,23 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Lungs.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Lungs.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Lungs.1|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Lung.1-BAY794620-Lung-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Lung.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Lung.1|ObservedData|Lung|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Lung.2-BAY794620-Lung-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Lung.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Lung.2|ObservedData|Lung|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -922,7 +1061,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -953,9 +1092,18 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Kidneys.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Kidneys.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Kidneys.1|ObservedData|||BAY794620|Measurement",
+              "Name": "BAY794620-Kidney-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
+              "X": "Time",
+              "Y": "BAY794620_autoradiography|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Autoradiography.Kidney.1-BAY794620-Kidney-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Kidney.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Kidney.1|ObservedData|Kidney|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF8000",
                 "LegendIndex": 2,
@@ -964,24 +1112,14 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Kidneys.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Kidneys.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Kidneys.2|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Kidney.2-BAY794620-Kidney-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Kidney.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Kidney.2|ObservedData|Kidney|Tissue|BAY794620|Measurement",
               "CurveOptions": {
-                "VisibleInLegend": false,
                 "Color": "#FF8000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "BAY794620-Kidney-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 1
               }
             }
           ],
@@ -1003,7 +1141,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1034,17 +1172,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Skin.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Skin.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Skin.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Skin-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|Skin|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
@@ -1054,9 +1181,20 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Skin.2-BAY794620-Measurement",
+              "Name": "Autoradiography.Skin.1-BAY794620-Skin-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Skin.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Skin.1|ObservedData|Skin|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Skin.2-BAY794620-Skin-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Skin.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Skin.2|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Skin.2|ObservedData|Skin|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF00FF",
                 "LegendIndex": 6,
@@ -1083,7 +1221,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1114,21 +1252,18 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Muscle.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Muscle.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Muscle.2|ObservedData|||BAY794620|Measurement",
+              "Name": "BAY794620-Muscle-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
+              "X": "Time",
+              "Y": "BAY794620_autoradiography|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
-                "VisibleInLegend": false,
                 "Color": "#800080",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
+                "LegendIndex": 1
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Muscle.1-BAY794620-Measurement",
+              "Name": "Autoradiography.Muscle.1-BAY794620-Muscle-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Muscle.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Muscle.1|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Muscle.1|ObservedData|Muscle|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#800080",
                 "LegendIndex": 2,
@@ -1137,12 +1272,14 @@
               }
             },
             {
-              "Name": "BAY794620-Muscle-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+              "Name": "Autoradiography.Muscle.2-BAY794620-Muscle-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Muscle.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Muscle.2|ObservedData|Muscle|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#800080",
-                "LegendIndex": 1
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -1164,7 +1301,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1195,17 +1332,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Spleen.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Spleen.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Spleen.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Spleen-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
@@ -1215,11 +1341,21 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Spleen.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Spleen.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Spleen.2|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Spleen.1-BAY794620-Spleen-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Spleen.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Spleen.1|ObservedData|Spleen|Tissue|BAY794620|Measurement",
               "CurveOptions": {
-                "VisibleInLegend": false,
+                "Color": "#00FF00",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Spleen.2-BAY794620-Spleen-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Spleen.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Spleen.2|ObservedData|Spleen|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
                 "Color": "#00FF00",
                 "LegendIndex": 3,
                 "LineStyle": "None",
@@ -1245,7 +1381,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1276,17 +1412,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Liver.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Liver.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Liver.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Liver-Whole Organ incl. FcRn_Complex (Liver)-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
@@ -1296,11 +1421,21 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Liver.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Liver.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Liver.2|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Liver.1-BAY794620-Liver-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Liver.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Liver.1|ObservedData|Liver|Tissue|BAY794620|Measurement",
               "CurveOptions": {
-                "VisibleInLegend": false,
+                "Color": "#C04000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Liver.2-BAY794620-Liver-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Liver.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Liver.2|ObservedData|Liver|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
                 "Color": "#C04000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
@@ -1326,7 +1461,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1357,21 +1492,18 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Heart.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Heart.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Heart.2|ObservedData|||BAY794620|Measurement",
+              "Name": "BAY794620-Heart-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
+              "X": "Time",
+              "Y": "BAY794620_autoradiography|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
-                "VisibleInLegend": false,
                 "Color": "#FF8080",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
+                "LegendIndex": 1
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Heart.1-BAY794620-Measurement",
+              "Name": "Autoradiography.Heart.1-BAY794620-Heart-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Heart.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Heart.1|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Heart.1|ObservedData|Heart|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF8080",
                 "LegendIndex": 2,
@@ -1380,12 +1512,14 @@
               }
             },
             {
-              "Name": "BAY794620-Heart-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+              "Name": "Autoradiography.Heart.2-BAY794620-Heart-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Heart.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Heart.2|ObservedData|Heart|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF8080",
-                "LegendIndex": 1
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -1407,7 +1541,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1438,17 +1572,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Fat.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Fat.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Fat.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Fat-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
@@ -1458,9 +1581,20 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Fat.2-BAY794620-Measurement",
+              "Name": "Autoradiography.Fat.1-BAY794620-Fat-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Fat.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Fat.1|ObservedData|Fat|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Fat.2-BAY794620-Fat-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Fat.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Fat.2|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Fat.2|ObservedData|Fat|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#00C0C0",
                 "LegendIndex": 3,
@@ -1487,7 +1621,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1527,23 +1661,23 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Brain.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Brain.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Brain.2|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Brain.1-BAY794620-Brain-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Brain.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Brain.1|ObservedData|Brain|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#008000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Brain.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Brain.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Brain.1|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.Brain.2-BAY794620-Brain-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Brain.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Brain.2|ObservedData|Brain|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#008000",
-                "LegendIndex": 2,
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -1567,7 +1701,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1598,20 +1732,18 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Stomach.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Stomach.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Stomach.2|ObservedData|||BAY794620|Measurement",
+              "Name": "BAY794620-Stomach-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
+              "X": "Time",
+              "Y": "BAY794620_autoradiography|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#8080FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
+                "LegendIndex": 1
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Stomach.1-BAY794620-Measurement",
+              "Name": "Autoradiography.Stomach.1-BAY794620-Stomach-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Stomach.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Stomach.1|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Stomach.1|ObservedData|Stomach|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#8080FF",
                 "LegendIndex": 2,
@@ -1620,12 +1752,14 @@
               }
             },
             {
-              "Name": "BAY794620-Stomach-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+              "Name": "Autoradiography.Stomach.2-BAY794620-Stomach-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Stomach.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Stomach.2|ObservedData|Stomach|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#8080FF",
-                "LegendIndex": 1
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -1647,7 +1781,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1678,20 +1812,18 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Pancreas.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|ObservedData|||BAY794620|Measurement",
+              "Name": "BAY794620-Pancreas-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
+              "X": "Time",
+              "Y": "BAY794620_autoradiography|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#C000C0",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
+                "LegendIndex": 1
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Pancreas.1-BAY794620-Measurement",
+              "Name": "Autoradiography.Pancreas.1-BAY794620-Pancreas-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|ObservedData|Pancreas|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#C000C0",
                 "LegendIndex": 2,
@@ -1700,12 +1832,14 @@
               }
             },
             {
-              "Name": "BAY794620-Pancreas-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+              "Name": "Autoradiography.Pancreas.2-BAY794620-Pancreas-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|ObservedData|Pancreas|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#C000C0",
-                "LegendIndex": 1
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -1727,7 +1861,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1758,17 +1892,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Small intestine.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Small intestine.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Small intestine.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Small Intestine-Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
@@ -1778,9 +1901,20 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Small intestine.2-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Small intestine.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Small intestine.2|ObservedData|||BAY794620|Measurement",
+              "Name": "Autoradiography.SmallIntestine.1-BAY794620-SmallIntestine-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1|ObservedData|SmallIntestine|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#804040",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.SmallIntestine.2-BAY794620-SmallIntestine-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2|ObservedData|SmallIntestine|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#804040",
                 "LegendIndex": 3,
@@ -1807,7 +1941,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -1838,17 +1972,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Ovaries.1-BAY794620-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C0C000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Gonads-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_autoradiography|Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
@@ -1858,9 +1981,20 @@
               }
             },
             {
-              "Name": "BAY794620_Autoradiography_PKSimImport.Ovaries.2-BAY794620-Measurement",
+              "Name": "Autoradiography.Ovaries.1-BAY794620-Ovaries-Tissue-Measurement",
+              "X": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|Time",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|ObservedData|Ovaries|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#C0C000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Autoradiography.Ovaries.2-BAY794620-Ovaries-Tissue-Measurement",
               "X": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|ObservedData|Ovaries|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#C0C000",
                 "LegendIndex": 3,
@@ -1887,7 +2021,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2022-11-16 13:25"
+          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
         }
       ]
     },
@@ -1895,19 +2029,19 @@
       "Name": "BAY794620_tissueDissection",
       "Model": "TwoPores",
       "ObservedData": [
-        "BAY794620_TissueDissection_PKSimImport.Intestine",
-        "BAY794620_TissueDissection_PKSimImport.Pancreas",
-        "BAY794620_TissueDissection_PKSimImport.Stomach",
-        "BAY794620_TissueDissection_PKSimImport.Brain",
-        "BAY794620_TissueDissection_PKSimImport.Fat",
-        "BAY794620_TissueDissection_PKSimImport.Liver",
-        "BAY794620_TissueDissection_PKSimImport.Spleen",
-        "BAY794620_TissueDissection_PKSimImport.Muscle",
-        "BAY794620_TissueDissection_PKSimImport.Bone",
-        "BAY794620_TissueDissection_PKSimImport.Kidney",
         "BAY794620_TissueDissection_PKSimImport.Blood",
         "BAY794620_TissueDissection_PKSimImport.Lung",
+        "BAY794620_TissueDissection_PKSimImport.Kidney",
+        "BAY794620_TissueDissection_PKSimImport.Bone",
+        "BAY794620_TissueDissection_PKSimImport.Muscle",
+        "BAY794620_TissueDissection_PKSimImport.Spleen",
+        "BAY794620_TissueDissection_PKSimImport.Liver",
         "BAY794620_TissueDissection_PKSimImport.Heart",
+        "BAY794620_TissueDissection_PKSimImport.Fat",
+        "BAY794620_TissueDissection_PKSimImport.Brain",
+        "BAY794620_TissueDissection_PKSimImport.Stomach",
+        "BAY794620_TissueDissection_PKSimImport.Pancreas",
+        "BAY794620_TissueDissection_PKSimImport.Intestine",
         "BAY794620_TissueDissection_PKSimImport.Ovaries"
       ],
       "Solver": {},
@@ -1971,6 +2105,73 @@
         "Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
         "Organism|LargeIntestine|BAY794620|Whole Organ (Large Intestine) incl. FcRn_Complex-BAY794620"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|VenousBlood|BAY794620|Whole Blood",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Blood"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Bone|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Bone"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Brain"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Fat"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Heart"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Kidney"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Liver"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Lung"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Muscle"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Ovaries"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Pancreas"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Spleen"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "BAY794620_tissueDissection|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
+          "ObservedData": "BAY794620_TissueDissection_PKSimImport.Stomach"
+        }
+      ],
       "Individual": "Mouse_tissueDissection",
       "Compounds": [
         {
@@ -2013,23 +2214,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Blood-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Blood|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Venous Blood-Whole Blood-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|VenousBlood|BAY794620|Whole Blood",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "TissueDissection.Blood-BAY794620-Blood-WholeBlood-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Blood|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2051,7 +2252,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2091,9 +2292,9 @@
               }
             },
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Blood-BAY794620-Measurement",
+              "Name": "TissueDissection.Blood-BAY794620-Blood-WholeBlood-Measurement",
               "X": "BAY794620_TissueDissection_PKSimImport.Blood|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 4,
@@ -2120,7 +2321,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2151,23 +2352,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Lung-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Lung|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Lung-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "TissueDissection.Lung-BAY794620-Lung-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Lung|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|Lung|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2189,7 +2390,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2220,23 +2421,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Kidney-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Kidney|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Kidney-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#FF8000",
                 "LegendIndex": 9
+              }
+            },
+            {
+              "Name": "TissueDissection.Kidney-BAY794620-Kidney-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Kidney|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|Kidney|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2258,7 +2459,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2289,23 +2490,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Bone-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Bone|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#0000C0",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Bone-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Bone|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#0000C0",
                 "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "TissueDissection.Bone-BAY794620-Bone-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Bone|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|Bone|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#0000C0",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2327,7 +2528,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2358,23 +2559,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Muscle-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Muscle|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Muscle-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#800080",
                 "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "TissueDissection.Muscle-BAY794620-Muscle-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Muscle|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|Muscle|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#800080",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2396,7 +2597,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2427,23 +2628,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Spleen-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Spleen|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 15,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Spleen-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#00FF00",
                 "LegendIndex": 14
+              }
+            },
+            {
+              "Name": "TissueDissection.Spleen-BAY794620-Spleen-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Spleen|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|Spleen|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 15,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2465,7 +2666,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2505,9 +2706,9 @@
               }
             },
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Liver-BAY794620-Measurement",
+              "Name": "TissueDissection.Liver-BAY794620-Liver-Tissue-Measurement",
               "X": "BAY794620_TissueDissection_PKSimImport.Liver|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|Liver|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#C04000",
                 "LegendIndex": 13,
@@ -2534,7 +2735,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2574,9 +2775,9 @@
               }
             },
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Heart-BAY794620-Measurement",
+              "Name": "TissueDissection.Heart-BAY794620-Heart-Tissue-Measurement",
               "X": "BAY794620_TissueDissection_PKSimImport.Heart|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|Heart|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#FF8080",
                 "LegendIndex": 11,
@@ -2603,7 +2804,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2643,9 +2844,9 @@
               }
             },
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Fat-BAY794620-Measurement",
+              "Name": "TissueDissection.Fat-BAY794620-Fat-Tissue-Measurement",
               "X": "BAY794620_TissueDissection_PKSimImport.Fat|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|Fat|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#00C0C0",
                 "LegendIndex": 12,
@@ -2672,7 +2873,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2703,23 +2904,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Brain-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Brain|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Brain-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "TissueDissection.Brain-BAY794620-Brain-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Brain|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|Brain|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2741,7 +2942,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2772,23 +2973,23 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Stomach-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Stomach|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#8080FF",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Stomach-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
               "CurveOptions": {
                 "Color": "#8080FF",
                 "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "TissueDissection.Stomach-BAY794620-Stomach-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Stomach|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|Stomach|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#8080FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2810,7 +3011,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2850,9 +3051,9 @@
               }
             },
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Pancreas-BAY794620-Measurement",
+              "Name": "TissueDissection.Pancreas-BAY794620-Pancreas-Tissue-Measurement",
               "X": "BAY794620_TissueDissection_PKSimImport.Pancreas|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|Pancreas|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#C000C0",
                 "LegendIndex": 14,
@@ -2879,7 +3080,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2910,17 +3111,6 @@
           ],
           "Curves": [
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Intestine-BAY794620-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Intestine|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|||BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "BAY794620-Small Intestine-Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620-Concentration",
               "X": "Time",
               "Y": "BAY794620_tissueDissection|Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
@@ -2936,6 +3126,17 @@
               "CurveOptions": {
                 "Color": "#808080",
                 "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "TissueDissection.Intestine-BAY794620-Intestine-Tissue-Measurement",
+              "X": "BAY794620_TissueDissection_PKSimImport.Intestine|Time",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|Intestine|Tissue|BAY794620|Measurement",
+              "CurveOptions": {
+                "Color": "#804040",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -2957,7 +3158,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         },
         {
           "Axes": [
@@ -2997,9 +3198,9 @@
               }
             },
             {
-              "Name": "BAY794620_TissueDissection_PKSimImport.Ovaries-BAY794620-Measurement",
+              "Name": "TissueDissection.Ovaries-BAY794620-Ovaries-Tissue-Measurement",
               "X": "BAY794620_TissueDissection_PKSimImport.Ovaries|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|||BAY794620|Measurement",
+              "Y": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|Ovaries|Tissue|BAY794620|Measurement",
               "CurveOptions": {
                 "Color": "#C0C000",
                 "LegendIndex": 2,
@@ -3026,25 +3227,110 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2022-11-16 13:34"
+          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
         }
       ]
     }
   ],
   "ObservedData": [
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Ovaries.2",
+      "Name": "BAY794620_Autoradiography_PKSimImport.Blood.1",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Ovaries"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "WholeBlood"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|Blood|WholeBlood|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            7.0804,
+            5.5748,
+            3.3764,
+            1.7232,
+            0.49566,
+            1.50690007
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Blood.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "WholeBlood"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "2"
         }
       ],
@@ -3052,7 +3338,1043 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|Blood|WholeBlood|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            6.8242,
+            7.75650024,
+            3.3345,
+            2.3271,
+            1.2785,
+            1.08660007,
+            0.36343
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Fat.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Fat.1|ObservedData|Fat|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.17241,
+            0.26665,
+            0.240759984,
+            0.34423,
+            0.065036,
+            0.109280005
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Fat.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Fat.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Fat.2|ObservedData|Fat|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.19173,
+            0.277270019,
+            0.27017,
+            0.22359,
+            0.207270011,
+            0.071384,
+            0.043933
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Fat.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Brain.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Brain"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Brain.1|ObservedData|Brain|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.255729973,
+            0.189900011,
+            0.13588,
+            0.084714,
+            0.041612,
+            0.074111
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Brain.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Brain.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Brain"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Brain.2|ObservedData|Brain|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.21884,
+            0.22431,
+            0.10268,
+            0.13404,
+            0.058369,
+            0.048421,
+            0.018926
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Brain.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Heart.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Heart"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Heart.1|ObservedData|Heart|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            2.8723,
+            2.1467,
+            1.1974,
+            0.741059959,
+            0.20534,
+            0.62197
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Heart.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Heart.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Heart"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Heart.2|ObservedData|Heart|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            3.1231,
+            3.1756,
+            1.17640007,
+            0.79057,
+            0.515660048,
+            0.491109967,
+            0.16561
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Heart.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Kidney.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Kidney"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Kidney.1|ObservedData|Kidney|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            2.0112,
+            1.4032,
+            1.2898,
+            0.49695,
+            0.21533,
+            0.39352
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Kidney.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Kidney.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Kidney"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Kidney.2|ObservedData|Kidney|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            1.8131,
+            1.703,
+            0.99905,
+            0.72484,
+            0.4836,
+            0.34107,
+            0.097561
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Kidney.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Liver.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Liver"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Liver.1|ObservedData|Liver|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            3.4884,
+            2.8342,
+            1.9673,
+            1.20590007,
+            0.444300026,
+            0.75987
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Liver.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Liver.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Liver"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Liver.2|ObservedData|Liver|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            3.66879988,
+            3.4251,
+            1.89519989,
+            1.702,
+            0.84213,
+            0.67795,
+            0.25948
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Liver.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Lung.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Lung"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Lung.1|ObservedData|Lung|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            4.2578,
+            2.66579986,
+            2.1702,
+            1.20929992,
+            0.30359,
+            0.64696
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Lung.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Lung.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Lung"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Lung.2|ObservedData|Lung|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            6.1368,
+            2.7951,
+            1.4876,
+            1.9949,
+            0.79746,
+            0.65186,
+            0.21355
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Lung.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Ovaries.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Ovaries"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|ObservedData|Ovaries|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            3.065,
+            1.878,
+            1.4264,
+            0.80459,
+            0.31176,
+            0.596959949
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Ovaries.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Ovaries"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|ObservedData|Ovaries|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3100,14 +4422,26 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Pancreas"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "1"
         }
       ],
@@ -3115,7 +4449,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|ObservedData|Pancreas|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3157,142 +4491,30 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Muscle.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Muscle"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Muscle.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.190389991,
-            0.16376,
-            0.16275,
-            0.12717,
-            0.073438,
-            0.06138,
-            0.020941
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Muscle.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Skin.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Skin"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Skin.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.44917,
-            0.69314003,
-            0.628410041,
-            0.4713,
-            0.17377001,
-            0.18756
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Skin.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "BAY794620_Autoradiography_PKSimImport.Pancreas.2",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Pancreas"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "2"
         }
       ],
@@ -3300,7 +4522,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|ObservedData|Pancreas|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3348,14 +4570,26 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Muscle"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "1"
         }
       ],
@@ -3363,7 +4597,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Muscle.1|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Muscle.1|ObservedData|Muscle|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3405,18 +4639,30 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Skin.2",
+      "Name": "BAY794620_Autoradiography_PKSimImport.Muscle.2",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Skin"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Muscle"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "2"
         }
       ],
@@ -3424,7 +4670,155 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Skin.2|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Muscle.2|ObservedData|Muscle|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.190389991,
+            0.16376,
+            0.16275,
+            0.12717,
+            0.073438,
+            0.06138,
+            0.020941
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Muscle.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Skin.1",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Skin"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Skin.1|ObservedData|Skin|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.44917,
+            0.69314003,
+            0.628410041,
+            0.4713,
+            0.17377001,
+            0.18756
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Skin.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Skin.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Skin"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Skin.2|ObservedData|Skin|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3468,18 +4862,30 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Small intestine.1",
+      "Name": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Small intestine"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "SmallIntestine"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "1"
         }
       ],
@@ -3487,7 +4893,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Small intestine.1|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1|ObservedData|SmallIntestine|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3509,7 +4915,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Small intestine.1|Time",
+          "Path": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -3529,18 +4935,30 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Small intestine.2",
+      "Name": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Small intestine"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "SmallIntestine"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "2"
         }
       ],
@@ -3548,7 +4966,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Small intestine.2|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2|ObservedData|SmallIntestine|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3571,7 +4989,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Small intestine.2|Time",
+          "Path": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -3596,14 +5014,26 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Spleen"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "1"
         }
       ],
@@ -3611,7 +5041,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Spleen.1|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Spleen.1|ObservedData|Spleen|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3653,205 +5083,30 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Tumor.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Tumor"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            577.24,
-            699.02,
-            1774.7,
-            2024.1,
-            1232.6,
-            1458.29993,
-            596.88
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Stomach.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Stomach"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Stomach.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            2.0667,
-            2.14600015,
-            0.62278,
-            0.38047,
-            0.37714,
-            0.205269992,
-            0.0640820041
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Stomach.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Tumor.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Tumor"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            707.58,
-            994.160034,
-            1196.2,
-            1219.6,
-            548.85,
-            1050.3
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "BAY794620_Autoradiography_PKSimImport.Spleen.2",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Spleen"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "2"
         }
       ],
@@ -3859,7 +5114,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Spleen.2|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Spleen.2|ObservedData|Spleen|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3907,14 +5162,26 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Stomach"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
           "Value": "1"
         }
       ],
@@ -3922,7 +5189,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Stomach.1|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Stomach.1|ObservedData|Stomach|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -3964,79 +5231,30 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Fat.1",
+      "Name": "BAY794620_Autoradiography_PKSimImport.Stomach.2",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Fat"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Stomach"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
         },
         {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Fat.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.17241,
-            0.26665,
-            0.240759984,
-            0.34423,
-            0.065036,
-            0.109280005
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Fat.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Heart.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Heart"
+          "Name": "Species",
+          "Value": "Mouse"
         },
         {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
+          "Name": "Point",
           "Value": "2"
         }
       ],
@@ -4044,7 +5262,7 @@
         {
           "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Heart.2|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_Autoradiography_PKSimImport.Stomach.2|ObservedData|Stomach|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -4052,13 +5270,13 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            3.1231,
-            3.1756,
-            1.17640007,
-            0.79057,
-            0.515660048,
-            0.491109967,
-            0.16561
+            2.0667,
+            2.14600015,
+            0.62278,
+            0.38047,
+            0.37714,
+            0.205269992,
+            0.0640820041
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -4067,7 +5285,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Heart.2|Time",
+          "Path": "BAY794620_Autoradiography_PKSimImport.Stomach.2|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -4088,820 +5306,175 @@
       }
     },
     {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Kidneys.1",
+      "Name": "BAY794620_Autoradiography_PKSimImport.Tumor.1",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Kidneys"
+          "Value": "All"
         },
         {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Kidneys.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            2.0112,
-            1.4032,
-            1.2898,
-            0.49695,
-            0.21533,
-            0.39352
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Kidneys.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Heart.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Heart"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Heart.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            2.8723,
-            2.1467,
-            1.1974,
-            0.741059959,
-            0.20534,
-            0.62197
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Heart.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Lungs.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Lungs"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Lungs.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            6.1368,
-            2.7951,
-            1.4876,
-            1.9949,
-            0.79746,
-            0.65186,
-            0.21355
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Lungs.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Liver.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Liver"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Liver.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            3.4884,
-            2.8342,
-            1.9673,
-            1.20590007,
-            0.444300026,
-            0.75987
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Liver.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Lungs.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Lungs"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Lungs.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            4.2578,
-            2.66579986,
-            2.1702,
-            1.20929992,
-            0.30359,
-            0.64696
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Lungs.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Liver.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Liver"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Liver.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            3.66879988,
-            3.4251,
-            1.89519989,
-            1.702,
-            0.84213,
-            0.67795,
-            0.25948
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Liver.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Brain.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Brain"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Brain.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.21884,
-            0.22431,
-            0.10268,
-            0.13404,
-            0.058369,
-            0.048421,
-            0.018926
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Brain.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Blood.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Blood"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            7.0804,
-            5.5748,
-            3.3764,
-            1.7232,
-            0.49566,
-            1.50690007
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Ovaries.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Ovaries"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            3.065,
-            1.878,
-            1.4264,
-            0.80459,
-            0.31176,
-            0.596959949
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Blood.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Blood"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            6.8242,
-            7.75650024,
-            3.3345,
-            2.3271,
-            1.2785,
-            1.08660007,
-            0.36343
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Brain.1",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Brain"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "1"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Brain.1|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.255729973,
-            0.189900011,
-            0.13588,
-            0.084714,
-            0.041612,
-            0.074111
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Brain.1|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Kidneys.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Kidneys"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Kidneys.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            1.8131,
-            1.703,
-            0.99905,
-            0.72484,
-            0.4836,
-            0.34107,
-            0.097561
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Kidneys.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_Autoradiography_PKSimImport.Fat.2",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Fat"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        },
-        {
-          "Name": "Animal",
-          "Value": "2"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "QuantityInfo": {
-            "Path": "BAY794620_Autoradiography_PKSimImport.Fat.2|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.19173,
-            0.277270019,
-            0.27017,
-            0.22359,
-            0.207270011,
-            0.071384,
-            0.043933
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_Autoradiography_PKSimImport.Fat.2|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          2.0,
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Tumor",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
+          "Name": "Organ",
           "Value": "Tumor"
         },
         {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.1|ObservedData|Tumor|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            707.58,
+            994.160034,
+            1196.2,
+            1219.6,
+            548.85,
+            1050.3
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.1|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_Autoradiography_PKSimImport.Tumor.2",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Tumor"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        },
+        {
+          "Name": "Point",
+          "Value": "2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.2|ObservedData|Tumor|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            577.24,
+            699.02,
+            1774.7,
+            2024.1,
+            1232.6,
+            1458.29993,
+            596.88
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_Autoradiography_PKSimImport.Tumor.2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_TissueDissection_PKSimImport.Spleen",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Spleen"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -4911,7 +5484,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Tumor|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|Spleen|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -4919,19 +5492,19 @@
                 "MolWeight": 152000.0
               },
               "Values": [
-                3.60000014,
-                4.15,
-                6.45000029,
-                4.54999971,
-                5.5,
-                8.0
+                1.35,
+                1.1,
+                0.450000018,
+                0.95,
+                0.7,
+                0.15
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "ng/ml"
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Tumor|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|Spleen|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -4939,21 +5512,21 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            21.20345,
-            25.7039,
-            29.6118,
-            26.4293,
-            24.30865,
-            23.014
+            0.0151110506,
+            0.00578925,
+            0.0054313,
+            0.00343739986,
+            0.00345590012,
+            0.00292805
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Tumor|Time",
+          "Path": "BAY794620_TissueDissection_PKSimImport.Spleen|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -4973,15 +5546,27 @@
       }
     },
     {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Lung",
+      "Name": "BAY794620_TissueDissection_PKSimImport.Liver",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Lung"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Liver"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -4991,7 +5576,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|Liver|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -4999,19 +5584,19 @@
                 "MolWeight": 152000.0
               },
               "Values": [
-                10.7,
-                2.3,
-                1.55000007,
-                2.1,
-                3.15,
-                1.6
+                4.25,
+                1.6,
+                0.5,
+                1.05,
+                0.75,
+                0.35
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "ng/ml"
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|Liver|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5019,12 +5604,12 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.037745,
-            0.01594975,
-            0.0140418,
-            0.00854485,
-            0.0124809,
-            0.00872015
+            0.03835005,
+            0.0193699,
+            0.01593415,
+            0.0097119,
+            0.0070241997,
+            0.0043963003
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -5033,7 +5618,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Lung|Time",
+          "Path": "BAY794620_TissueDissection_PKSimImport.Liver|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5057,11 +5642,23 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Kidney"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5071,7 +5668,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|Kidney|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5091,7 +5688,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|Kidney|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5133,15 +5730,27 @@
       }
     },
     {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Fat",
+      "Name": "BAY794620_TissueDissection_PKSimImport.Lung",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Fat"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Lung"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5151,7 +5760,375 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|Lung|Tissue|BAY794620|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 152000.0
+              },
+              "Values": [
+                10.7,
+                2.3,
+                1.55000007,
+                2.1,
+                3.15,
+                1.6
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|Lung|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.037745,
+            0.01594975,
+            0.0140418,
+            0.00854485,
+            0.0124809,
+            0.00872015
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_TissueDissection_PKSimImport.Lung|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_TissueDissection_PKSimImport.Bone",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Bone"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|Bone|Tissue|BAY794620|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 152000.0
+              },
+              "Values": [
+                2.325,
+                0.525,
+                0.450000018,
+                1.275,
+                0.75,
+                0.075
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|Bone|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.0149167506,
+            0.00652695028,
+            0.005222625,
+            0.0031725,
+            0.003432825,
+            0.0028515
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_TissueDissection_PKSimImport.Bone|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_TissueDissection_PKSimImport.Heart",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Heart"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|Heart|Tissue|BAY794620|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 152000.0
+              },
+              "Values": [
+                2.85,
+                2.3,
+                2.3,
+                1.35,
+                1.1,
+                1.2
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|Heart|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.02975355,
+            0.01244975,
+            0.0112257,
+            0.0068276,
+            0.00509755,
+            0.00444229972
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_TissueDissection_PKSimImport.Heart|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_TissueDissection_PKSimImport.Brain",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Brain"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|Brain|Tissue|BAY794620|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 152000.0
+              },
+              "Values": [
+                0.1,
+                0.6,
+                0.1,
+                0.0,
+                0.2,
+                0.1
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|Brain|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.00278535,
+            0.00155220006,
+            0.00109525,
+            0.0005979,
+            0.000517050037,
+            0.0004619
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_TissueDissection_PKSimImport.Brain|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_TissueDissection_PKSimImport.Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|Fat|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5171,7 +6148,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|Fat|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5217,11 +6194,23 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Muscle"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5231,7 +6220,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|Muscle|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5251,7 +6240,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|Muscle|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5293,15 +6282,27 @@
       }
     },
     {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Brain",
+      "Name": "BAY794620_TissueDissection_PKSimImport.Tumor",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Brain"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Tumor"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5311,7 +6312,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Tumor|ObservedData|Tumor|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5319,19 +6320,19 @@
                 "MolWeight": 152000.0
               },
               "Values": [
-                0.1,
-                0.6,
-                0.1,
-                0.0,
-                0.2,
-                0.1
+                3.60000014,
+                4.15,
+                6.45000029,
+                4.54999971,
+                5.5,
+                8.0
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "ng/ml"
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Tumor|ObservedData|Tumor|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5339,101 +6340,21 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.00278535,
-            0.00155220006,
-            0.00109525,
-            0.0005979,
-            0.000517050037,
-            0.0004619
+            21.20345,
+            25.7039,
+            29.6118,
+            26.4293,
+            24.30865,
+            23.014
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Brain|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Intestine",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Intestine"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|||BAY794620|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 152000.0
-              },
-              "Values": [
-                0.35,
-                0.7,
-                0.450000018,
-                0.3,
-                0.3,
-                0.05
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.00714735,
-            0.00344815,
-            0.0023377,
-            0.00202125,
-            0.0013584,
-            0.0011198
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Intestine|Time",
+          "Path": "BAY794620_TissueDissection_PKSimImport.Tumor|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5457,11 +6378,23 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "WholeBlood"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5471,7 +6404,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|Blood|WholeBlood|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5491,7 +6424,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|Blood|WholeBlood|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5533,95 +6466,27 @@
       }
     },
     {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Ovaries",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Ovaries"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|||BAY794620|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 152000.0
-              },
-              "Values": [
-                14.85,
-                0.15,
-                0.7,
-                0.85,
-                2.35,
-                2.0
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.0223805513,
-            0.0123059,
-            0.0065501,
-            0.0053073,
-            0.0051466,
-            0.0070813
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Ovaries|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "BAY794620_TissueDissection_PKSimImport.Stomach",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Stomach"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5631,7 +6496,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|Stomach|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5651,7 +6516,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|Stomach|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5693,15 +6558,27 @@
       }
     },
     {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Heart",
+      "Name": "BAY794620_TissueDissection_PKSimImport.Ovaries",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Heart"
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Ovaries"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -5711,7 +6588,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|Ovaries|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5719,259 +6596,19 @@
                 "MolWeight": 152000.0
               },
               "Values": [
-                2.85,
-                2.3,
-                2.3,
-                1.35,
-                1.1,
-                1.2
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.02975355,
-            0.01244975,
-            0.0112257,
-            0.0068276,
-            0.00509755,
-            0.00444229972
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Heart|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Liver",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Liver"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|||BAY794620|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 152000.0
-              },
-              "Values": [
-                4.25,
-                1.6,
-                0.5,
-                1.05,
-                0.75,
-                0.35
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.03835005,
-            0.0193699,
-            0.01593415,
-            0.0097119,
-            0.0070241997,
-            0.0043963003
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Liver|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Bone",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Bone"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|||BAY794620|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 152000.0
-              },
-              "Values": [
-                2.325,
-                0.525,
-                0.450000018,
-                1.275,
-                0.75,
-                0.075
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|||BAY794620|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 152000.0
-          },
-          "Values": [
-            0.0149167506,
-            0.00652695028,
-            0.005222625,
-            0.0031725,
-            0.003432825,
-            0.0028515
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Bone|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          4.0,
-          24.0,
-          48.0,
-          72.0,
-          96.0,
-          168.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "BAY794620_TissueDissection_PKSimImport.Spleen",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Spleen"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "BAY794620"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|||BAY794620|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 152000.0
-              },
-              "Values": [
-                1.35,
-                1.1,
-                0.450000018,
-                0.95,
+                14.85,
+                0.15,
                 0.7,
-                0.15
+                0.85,
+                2.35,
+                2.0
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "ng/ml"
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|Ovaries|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5979,12 +6616,12 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.0151110506,
-            0.00578925,
-            0.0054313,
-            0.00343739986,
-            0.00345590012,
-            0.00292805
+            0.0223805513,
+            0.0123059,
+            0.0065501,
+            0.0053073,
+            0.0051466,
+            0.0070813
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -5993,7 +6630,99 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "BAY794620_TissueDissection_PKSimImport.Spleen|Time",
+          "Path": "BAY794620_TissueDissection_PKSimImport.Ovaries|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          4.0,
+          24.0,
+          48.0,
+          72.0,
+          96.0,
+          168.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "BAY794620_TissueDissection_PKSimImport.Intestine",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Intestine"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|Intestine|Tissue|BAY794620|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 152000.0
+              },
+              "Values": [
+                0.35,
+                0.7,
+                0.450000018,
+                0.3,
+                0.3,
+                0.05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|Intestine|Tissue|BAY794620|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 152000.0
+          },
+          "Values": [
+            0.00714735,
+            0.00344815,
+            0.0023377,
+            0.00202125,
+            0.0013584,
+            0.0011198
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "BAY794620_TissueDissection_PKSimImport.Intestine|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -6017,11 +6746,23 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
+          "Value": "All"
+        },
+        {
+          "Name": "Organ",
           "Value": "Pancreas"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Tissue"
         },
         {
           "Name": "Molecule",
           "Value": "BAY794620"
+        },
+        {
+          "Name": "Species",
+          "Value": "Mouse"
         }
       ],
       "Columns": [
@@ -6031,7 +6772,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|||BAY794620|Error"
+                "Path": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|Pancreas|Tissue|BAY794620|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -6051,7 +6792,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|||BAY794620|Measurement"
+            "Path": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|Pancreas|Tissue|BAY794620|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -6105,12 +6846,12 @@
         "BAY794620_Autoradiography_PKSimImport.Brain.2",
         "BAY794620_Autoradiography_PKSimImport.Heart.1",
         "BAY794620_Autoradiography_PKSimImport.Heart.2",
-        "BAY794620_Autoradiography_PKSimImport.Kidneys.1",
-        "BAY794620_Autoradiography_PKSimImport.Kidneys.2",
+        "BAY794620_Autoradiography_PKSimImport.Kidney.1",
+        "BAY794620_Autoradiography_PKSimImport.Kidney.2",
         "BAY794620_Autoradiography_PKSimImport.Liver.1",
         "BAY794620_Autoradiography_PKSimImport.Liver.2",
-        "BAY794620_Autoradiography_PKSimImport.Lungs.1",
-        "BAY794620_Autoradiography_PKSimImport.Lungs.2",
+        "BAY794620_Autoradiography_PKSimImport.Lung.1",
+        "BAY794620_Autoradiography_PKSimImport.Lung.2",
         "BAY794620_Autoradiography_PKSimImport.Ovaries.1",
         "BAY794620_Autoradiography_PKSimImport.Ovaries.2",
         "BAY794620_Autoradiography_PKSimImport.Pancreas.1",
@@ -6119,8 +6860,8 @@
         "BAY794620_Autoradiography_PKSimImport.Muscle.2",
         "BAY794620_Autoradiography_PKSimImport.Skin.1",
         "BAY794620_Autoradiography_PKSimImport.Skin.2",
-        "BAY794620_Autoradiography_PKSimImport.Small intestine.1",
-        "BAY794620_Autoradiography_PKSimImport.Small intestine.2",
+        "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1",
+        "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2",
         "BAY794620_Autoradiography_PKSimImport.Spleen.1",
         "BAY794620_Autoradiography_PKSimImport.Spleen.2",
         "BAY794620_Autoradiography_PKSimImport.Stomach.1",

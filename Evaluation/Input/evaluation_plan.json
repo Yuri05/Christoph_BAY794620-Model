@@ -160,14 +160,14 @@
                                 "Project": "BAY 79-4620",
                                 "Simulation": "BAY794620_autoradiography",
                                 "Output": "Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Lungs.1","BAY794620_Autoradiography_PKSimImport.Lungs.2"],
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Lung.1","BAY794620_Autoradiography_PKSimImport.Lung.2"],
                                 "Color": "#0000FF"
                             },
                             {
                                 "Project": "BAY 79-4620",
                                 "Simulation": "BAY794620_autoradiography",
                                 "Output": "Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Kidneys.1","BAY794620_Autoradiography_PKSimImport.Kidneys.2"],
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Kidney.1","BAY794620_Autoradiography_PKSimImport.Kidney.2"],
                                 "Color": "#FF8000"
                             },
                             {
@@ -237,7 +237,7 @@
                                 "Project": "BAY 79-4620",
                                 "Simulation": "BAY794620_autoradiography",
                                 "Output": "Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
-                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.Small intestine.1","BAY794620_Autoradiography_PKSimImport.Small intestine.2"],
+                                "ObservedData": ["BAY794620_Autoradiography_PKSimImport.SmallIntestine.1","BAY794620_Autoradiography_PKSimImport.SmallIntestine.2"],
                                 "Color": "#804040"
                             },
                             {
